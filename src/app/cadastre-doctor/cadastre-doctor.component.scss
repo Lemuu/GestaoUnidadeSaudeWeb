@@ -1,0 +1,33 @@
+input {
+  margin: 5px 5px;
+}
+
+.form-group {
+  margin: 10px auto;
+  width: 450px;
+}
+
+.button-wrapper {
+  display: flex;
+}
+
+.button {
+  background-color: var(--primary);
+  color: white;
+  display: block;
+  flex: 1;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 0.5em;
+  cursor: pointer;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+#speciality {
+  margin-left: 1%;
+}
