@@ -7,13 +7,15 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CadastreDoctorComponent } from './cadastre-doctor/cadastre-doctor.component';
 import { CadastrePatientComponent } from './cadastre-patient/cadastre-patient.component';
+import { CadastreComponent } from './cadastre/cadastre.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CadastrePatientComponent,
-    CadastreDoctorComponent
-   ],
+    CadastreDoctorComponent,
+    CadastreComponent
+  ],
   imports: [
     BrowserModule,
     FormsModule,

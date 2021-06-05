@@ -26,6 +26,11 @@ input {
   &:hover {
     opacity: 0.8;
   }
+
+  &__click {
+    text-align: center;
+    margin: 15px 15px;
+  }
 }
 
 #sex {

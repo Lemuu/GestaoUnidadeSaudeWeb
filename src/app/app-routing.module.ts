@@ -2,11 +2,13 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CadastreDoctorComponent } from './cadastre-doctor/cadastre-doctor.component';
 import { CadastrePatientComponent } from './cadastre-patient/cadastre-patient.component';
+import { CadastreComponent } from './cadastre/cadastre.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'cadastre-patient', pathMatch: 'full'},
-  {path: 'cadastre-patient', component: CadastrePatientComponent},
-  {path: 'cadastre-doctor', component: CadastreDoctorComponent}
+  {path: '', redirectTo: 'cadastre', pathMatch: 'full'},
+  {path: 'cadastre', component: CadastreComponent},
+  {path: 'cadastre-doctor', component: CadastreDoctorComponent},
+  {path: 'cadastre-patient', component: CadastrePatientComponent}
 ];
 
 @NgModule({

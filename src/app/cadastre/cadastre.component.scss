@@ -1,10 +1,10 @@
-input {
-  margin: 5px 5px;
-}
-
-.form-group {
-  margin: 10px auto;
-  width: 450px;
+a {
+  &:link, &:visited {
+    text-decoration: none;
+  }
+  &:hover, &:active {
+    text-decoration: underline;
+  }
 }
 
 .button-wrapper {
@@ -22,17 +22,10 @@ input {
   padding: 0.5em;
   cursor: pointer;
   transition: opacity 0.2s;
+  text-align: center;
+  margin: 15px 15px;
 
   &:hover {
     opacity: 0.8;
   }
-
-  &__click {
-    text-align: center;
-    margin: 15px 15px;
-  }
-}
-
-#speciality {
-  margin-left: 1%;
 }
